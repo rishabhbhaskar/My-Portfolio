@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rishabh | SAP Functional Consultant & SAP Business One (SAP B1) Specialist</title>
+  <meta name="description" content="Official Portfolio of Rishabh - SAP Functional Consultant specializing in SAP Business One (SAP B1), SAP SD, SAP MM, Custom Z-Reports, BADIs, and Support Projects (Eagle, Spartan, SD Bio, Esskay Beauty).">
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar Header -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="sap-icon">SAP</span> Rishabh
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">SAP B1 & Support Projects</a></li>
+        <li><a href="#skills">Skills Matrix</a></li>
+        <li><a href="#experience">Experience & Certs</a></li>
+        <li><a href="#contact" class="nav-btn">Contact Me</a></li>
+      </ul>
+      <button class="mobile-toggle" id="mobileToggle">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="sap-badge-pill">
+          <i class="fa-solid fa-certificate"></i> SAP B1 & Enterprise Functional Specialist
+        </div>
+        <h1>SAP Business One <span class="gradient-text">& Enterprise Functional Lead</span></h1>
+        <p class="hero-subtitle">SAP B1 (HANA/SQL) | SAP SD | SAP MM | Formatted Searches (FMS) | B1 Service Layer</p>
+        <p class="hero-description">
+          Specializing in end-to-end <strong>SAP Business One (SAP B1)</strong> implementations, SDK/Service Layer integrations, Crystal Reports, and enterprise ERP support for clients like <strong>Eagle Enterprise</strong>, <strong>Spartan Industries</strong>, <strong>SD Bio</strong>, and <strong>Esskay Beauty</strong>.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">
+            <i class="fa-solid fa-cubes"></i> Explore SAP B1 Projects
+          </a>
+          <a href="#contact" class="btn-secondary">
+            <i class="fa-solid fa-envelope"></i> Get In Touch
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3 class="counter" data-target="5">0</h3>
+            <p>SAP B1 & ERP Projects</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="counter" data-target="60">0</h3>
+            <p>FMS & Custom Reports</p>
+          </div>
+          <div class="stat-item">
+            <h3 class="counter" data-target="100">0</h3>
+            <p>% SLA Success Rate</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual (Interactive Code Window) -->
+      <div class="hero-visual">
+        <div class="sap-code-window">
+          <div class="window-header">
+            <div class="window-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="window-title">SAP_B1_SERVICE_LAYER_CONFIG.json</span>
+          </div>
+          <div class="window-body">
+            <p><span class="code-comment">// SAP Business One Service Layer REST OData Call</span></p>
+            <p><span class="code-keyword">POST</span> <span class="code-string">/b1s/v1/Orders</span></p>
+            <p>{</p>
+            <p>&nbsp;&nbsp;<span class="code-func">"CardCode"</span>: <span class="code-string">"C20000"</span>,</p>
+            <p>&nbsp;&nbsp;<span class="code-func">"DocDueDate"</span>: <span class="code-string">"2026-08-15"</span>,</p>
+            <p>&nbsp;&nbsp;<span class="code-func">"DocumentLines"</span>: [</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;{ <span class="code-func">"ItemCode"</span>: <span class="code-string">"A00001"</span>, <span class="code-func">"Quantity"</span>: 10, <span class="code-func">"Price"</span>: 150.00 }</p>
+            <p>&nbsp;&nbsp;]</p>
+            <p>}</p>
+            <br>
+            <p><span class="code-comment">-- SAP B1 HANA Formatted Search (FMS) Query</span></p>
+            <p><span class="code-keyword">SELECT</span> <span class="code-var">T0."Price" * 0.90</span> <span class="code-keyword">FROM</span> <span class="code-string">ITM1 T0</span></p>
+            <p>&nbsp;&nbsp;<span class="code-keyword">WHERE</span> <span class="code-var">T0."ItemCode"</span> = <span class="code-func">$[RDR1."ItemCode"]</span>;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">About Me</span>
+        <h2 class="section-title">Driving Growth with <span class="gradient-text">SAP Business One & ERP Excellence</span></h2>
+        <p class="section-desc">
+          Experienced SAP Consultant specializing in <strong>SAP Business One (SAP B1)</strong> setup, module configuration, Formatted Searches (FMS), User-Defined Objects (UDO), Service Layer REST integrations, Crystal Reports, and enterprise SAP SD/MM support.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SAP Projects Showcase Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Portfolio Showcase</span>
+        <h2 class="section-title">SAP B1 & Enterprise <span class="gradient-text">Projects</span></h2>
+        <p class="section-desc">Explore projects across SAP Business One (SAP B1), functional support, custom reports, and integration gateways.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-container">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="sap-b1">SAP Business One (SAP B1)</button>
+        <button class="filter-btn" data-filter="support">Support Projects (Eagle, SD Bio)</button>
+        <button class="filter-btn" data-filter="customization">Customizations (Spartan, Esskay)</button>
+        <button class="filter-btn" data-filter="reports">Z-Reports & SmartForms</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Dynamic Cards populated via script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Matrix Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Technical & Functional Competencies</span>
+        <h2 class="section-title">SAP & B1 <span class="gradient-text">Skills Matrix</span></h2>
+        <p class="section-desc">Comprehensive expertise spanning SAP Business One (SAP B1) and Enterprise SAP SD/MM.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- SAP Business One (SAP B1) Card -->
+        <div class="skill-category-card">
+          <div class="category-icon"><i class="fa-solid fa-cube"></i></div>
+          <h3>SAP Business One (SAP B1)</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>SAP B1 Modules (Sales, AP/AR, Stock, MRP)</span><span>95%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Formatted Searches (FMS) & Queries</span><span>96%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 96%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>UDF / UDT / UDO & Transaction Notification</span><span>94%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 94%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>SAP B1 Service Layer & SDK (UI/DI API)</span><span>90%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SAP SD Module -->
+        <div class="skill-category-card">
+          <div class="category-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <h3>SAP SD (Sales & Distribution)</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>Order-to-Cash (O2C) Process</span><span>95%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Pricing Determination & Routines</span><span>92%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 92%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Credit Management & STO</span><span>90%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Output Determination & Billing</span><span>94%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 94%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SAP MM & Reports -->
+        <div class="skill-category-card">
+          <div class="category-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <h3>Crystal Reports & Z-Reports</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>Crystal Reports for SAP B1</span><span>95%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Custom ABAP ALV Reports</span><span>92%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 92%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>HANA SQLScript & Views</span><span>88%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>SmartForms & Layout Designer (PLD)</span><span>90%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Functional Support & Integration -->
+        <div class="skill-category-card">
+          <div class="category-icon"><i class="fa-solid fa-network-wired"></i></div>
+          <h3>Integration & Support Operations</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>SAP B1i Framework (B1iF / B1iSN)</span><span>88%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 88%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>L2 / L3 Support Ticket Resolution</span><span>95%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Master Data Governance & Migration</span><span>92%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 92%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Requirement Gathering & Specs</span><span>94%</span></div>
+              <div class="skill-bar"><div class="skill-progress" style="width: 94%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience & Certifications -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Track Record</span>
+        <h2 class="section-title">Experience & <span class="gradient-text">Certifications</span></h2>
+        <p class="section-desc">My professional journey across SAP Business One and Enterprise SAP engagements.</p>
+      </div>
+
+      <div class="timeline-cert-grid">
+        <!-- Implementation Experience Timeline -->
+        <div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 30px;"><i class="fa-solid fa-briefcase" style="color: var(--accent-cyan);"></i> Project & Support Timeline</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-date">SAP BUSINESS ONE (SAP B1)</div>
+              <h4 class="timeline-title">SAP B1 Consultant & Integration Specialist</h4>
+              <p class="timeline-company">SME Enterprise Solutions</p>
+              <p style="font-size: 0.9rem; color: var(--text-muted);">
+                Configured SAP B1 HANA modules, Service Layer REST APIs, Formatted Searches (FMS), Crystal Reports, UDF/UDT/UDO, and B1iF integrations.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">EAGLE ENTERPRISE</div>
+              <h4 class="timeline-title">SAP SD/MM Support & Customization Lead</h4>
+              <p class="timeline-company">Eagle Enterprise Project</p>
+              <p style="font-size: 0.9rem; color: var(--text-muted);">
+                Managed post-go-live L2/L3 support, custom pricing routines, sales order tracking reports, and output determination.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">SPARTAN INDUSTRIES</div>
+              <h4 class="timeline-title">SAP Functional Consultant - O2C & STO</h4>
+              <p class="timeline-company">Spartan Industries Project</p>
+              <p style="font-size: 0.9rem; color: var(--text-muted);">
+                Configured credit management, stock transfer orders (STO), custom BADI credit checks, and executive management ALV reports.
+              </p>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-date">SD BIO & ESSKAY BEAUTY</div>
+              <h4 class="timeline-title">SAP Functional Specialist</h4>
+              <p class="timeline-company">SD Bio & Esskay Beauty Projects</p>
+              <p style="font-size: 0.9rem; color: var(--text-muted);">
+                Batch management, SLED expiry alerts, serial tracking for medical devices, e-Way bill programs, and promotional pricing logic.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certifications & Credentials -->
+        <div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 30px;"><i class="fa-solid fa-award" style="color: var(--sap-gold);"></i> Certifications & Credentials</h3>
+          
+          <div class="cert-card">
+            <div class="cert-badge-icon"><i class="fa-solid fa-certificate"></i></div>
+            <div class="cert-details">
+              <h4>SAP Certified Application Associate - SAP Business One (SAP B1)</h4>
+              <p>Issued by SAP | Business One Logistics, Financials & Implementation</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-badge-icon"><i class="fa-solid fa-award"></i></div>
+            <div class="cert-details">
+              <h4>SAP Certified Application Associate - Sales & Distribution (SD)</h4>
+              <p>Issued by SAP | Sales Order Management & Pricing Specialist</p>
+            </div>
+          </div>
+
+          <div class="cert-card">
+            <div class="cert-badge-icon"><i class="fa-solid fa-file-invoice"></i></div>
+            <div class="cert-details">
+              <h4>SAP B1 Service Layer & Integration Specialist</h4>
+              <p>Expertise in Service Layer REST APIs, HANA SQL & Crystal Reports</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Let's Connect</span>
+        <h2 class="section-title">Get In Touch for <span class="gradient-text">SAP & B1 Projects</span></h2>
+        <p class="section-desc">Need an experienced SAP Business One (SAP B1) or Enterprise SAP Functional Consultant? Drop me a message!</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3 style="font-size: 1.5rem; margin-bottom: 16px;">Contact Information</h3>
+          <p style="color: var(--text-muted); margin-bottom: 30px;">
+            Open for SAP Business One (SAP B1) implementations, SDK/Service Layer integrations, and enterprise SAP SD/MM support engagements.
+          </p>
+
+          <div style="display: flex; flex-direction: column; gap: 20px;">
+            <div style="display: flex; align-items: center; gap: 16px;">
+              <div style="width: 44px; height: 44px; background: rgba(0, 112, 243, 0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--accent-cyan);">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">EMAIL</p>
+                <p style="font-weight: 600;">rishabh.sap.consultant@example.com</p>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 16px;">
+              <div style="width: 44px; height: 44px; background: rgba(0, 112, 243, 0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--accent-cyan);">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">GITHUB</p>
+                <p style="font-weight: 600;">github.com/rishabh-sap</p>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: center; gap: 16px;">
+              <div style="width: 44px; height: 44px; background: rgba(0, 112, 243, 0.15); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--accent-cyan);">
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+              <div>
+                <p style="font-size: 0.8rem; color: var(--text-muted);">LINKEDIN</p>
+                <p style="font-weight: 600;">linkedin.com/in/rishabh-sap-consultant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-card">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" class="form-control" placeholder="e.g. John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" class="form-control" placeholder="e.g. john@enterprise.com" required>
+            </div>
+            <div class="form-group">
+              <label for="subject">SAP B1 / Enterprise Subject</label>
+              <input type="text" id="subject" class="form-control" placeholder="e.g. SAP B1 Implementation / Crystal Reports / SD Support" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Project Details</label>
+              <textarea id="message" class="form-control" placeholder="Describe your SAP Business One or SAP functional requirements..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Rishabh. SAP Business One (SAP B1) & Enterprise Portfolio. Built with HTML, CSS & JavaScript.</p>
+    </div>
+  </footer>
+
+  <!-- Project Detail Modal -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose">&times;</button>
+      <div id="modalBody">
+        <!-- Content inserted dynamically by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">Message sent successfully!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
